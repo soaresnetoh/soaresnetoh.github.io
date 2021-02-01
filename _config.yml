@@ -1,19 +1,16 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+# Site settings
+title: Mauricio Urraco
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-markdown: kramdown
-highlighter: rouge
-logo: false
-paginate: 15
-baseurl: /kasper
-domain_name: "http://yourblog-domain.com"
-google_analytics: "UA-XXXXXXXX-X"
-plugins: [jekyll-paginate]
+# User settings
+username: Mauricio Urraco
+user_description: I\'m a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT. I'm one of the two guys behind all the JS related stuff.
+user_title: Software Engineer
+email: mauriurraco@gmail.com
+# twitter_username: lorem_ipsum
+# github_username:  lorem_ipsum
+# gplus_username:  lorem_ipsum
 
-# Details for the RSS feed generator
-url: ""
-author: "Your Name"
-
-# Disqus config
-disqus-shortname: ""
+exclude: ['package.json', 'src' , 'node_modules']
